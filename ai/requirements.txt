@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+pydantic
+requests
+
+opencv-python
+numpy
+pillow
+
+ultralytics
+
+scikit-learn
+
+groq

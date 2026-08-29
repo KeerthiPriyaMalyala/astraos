@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Build
+dist/
+build/
+
+# AI datasets and generated training outputs
+ai/datasets/
+ai/runs/
+
+# Runtime uploads and logs
+uploads/
+ai/uploads/
+logs/
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+*.cache
+
+# OS
+.DS_Store
+ds_store
+Thumbs.db

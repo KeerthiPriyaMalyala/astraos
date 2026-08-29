@@ -1,0 +1,14 @@
+{
+  "name": "astraos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AstraOS - AI Operating System for Public Infrastructure (root dev orchestration)",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently -n CLIENT,SERVER -c cyan,green \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
