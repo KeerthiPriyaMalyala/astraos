@@ -76,10 +76,10 @@ export default function App() {
           PUBLIC ROUTES
       ===================================================== */}
 
-      <Route
-        path="/"
-        element={<Landing />}
-      />
+     <Route
+  path="/"
+  element={<Navigate to="/login" replace />}
+/>
 
       <Route
         path="/login"
@@ -255,9 +255,9 @@ export default function App() {
       ===================================================== */}
 
       <Route
-        path="*"
-        element={<Navigate to="/" replace />}
-      />
+  path="*"
+  element={<Navigate to="/login" replace />}
+/>
 
     </Routes>
   );
